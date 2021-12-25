@@ -28,6 +28,36 @@
            width: 80%;
        }
         }
+@media only screen and (min-width:425px){
+        .header{
+            flex-wrap: wrap;
+        }
+        .section_1{ flex-wrap: wrap; width: 100%;align-items: center;}
+        .menu a{
+            display: none; 
+        }
+        .menu{padding: 5px;} 
+        .burger_icon{
+            display: block;
+            width: 20px; }
+       .section_2{
+           flex-wrap: wrap;
+       }
+       .image_1{
+           width: 80%;
+       }
+       .fixed .button{ padding: 10px; color: #008cff; font-weight: bold; font-size: 0.4em; margin-right: 20px;}
+       .Div_2{background-color: whitesmoke; width:220%;padding: 5px;}
+   .Div_2 li{ padding: 10%;font-size: 1em; text-align: left;}
+.Div_3 div{background-color: rgba(73, 71, 75, 0.479); width: 90%; color: white; padding: 20px; text-align: justify; font-size: 1em; 
+    min-height: 350px;}
+       .cols{
+           flex-wrap: wrap;
+       }
+       .col_1{
+           width: 80%;
+       }
+        }
 @media only screen and (min-width:576px){
     .menu a{
         display: none;
