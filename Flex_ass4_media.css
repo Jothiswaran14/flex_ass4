@@ -3,7 +3,7 @@
 }
 @media only screen and (max-width:768px){
 .menu a{
-    padding: 3px; font-size: 12px;
+    padding: 3px; font-size: 10px;
 }
 .Div_2{width:150%;padding: 5px;}
 .Div_2 li{ padding: 8%;font-size: 1em; text-align: left;}
