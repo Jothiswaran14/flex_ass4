@@ -1,45 +1,4 @@
-@media only screen and (max-width:1024px){
-.menu a{ padding: 10px;}
-}
-@media only screen and (max-width:768px){
-.menu a{
-    padding: 3px; font-size: 10px;
-}
-.Div_2{width:150%;padding: 5px;}
-.Div_2 li{ padding: 8%;font-size: 1em; text-align: left;}
-.cols{
-    flex-wrap: wrap;
-}
-.col_1{
-    width: 40%;
-}
-}
-@media only screen and (max-width:576px){
-    .menu a{
-        display: none;
-    }
-    .burger_icon{
-        display: block;
-    }
-
-   .section_2{
-       flex-wrap: wrap;
-   }
-   .image_1{
-       width: 50%;
-   }
-   .fixed .button{ padding: 12px; color: #008cff; font-weight: bold; font-size: 0.5em; margin-right: 20px;}
-   .Div_2{background-color: whitesmoke; width:220%;padding: 5px;}
-   .Div_2 li{ padding: 3%;font-size: 1em; text-align: left;}
-.Div_3 div{background-color: rgba(73, 71, 75, 0.479); width: 80%; color: white; padding: 20px; text-align: justify; font-size: 1em; min-height: 350px;}
-   .cols{
-       flex-wrap: wrap;
-   }
-   .col_1{
-       width: 40%;
-   }
-    }
-    @media only screen and (max-width:425px){
+@media only screen and (min-width:425px){
         .header{
             flex-wrap: wrap;
         }
@@ -69,3 +28,47 @@
            width: 80%;
        }
         }
+@media only screen and (min-width:576px){
+    .menu a{
+        display: none;
+    }
+    .burger_icon{
+        display: block;
+    }
+
+   .section_2{
+       flex-wrap: wrap;
+   }
+   .image_1{
+       width: 50%;
+   }
+   .fixed .button{ padding: 12px; color: #008cff; font-weight: bold; font-size: 0.5em; margin-right: 20px;}
+   .Div_2{background-color: whitesmoke; width:220%;padding: 5px;}
+   .Div_2 li{ padding: 3%;font-size: 1em; text-align: left;}
+.Div_3 div{background-color: rgba(73, 71, 75, 0.479); width: 80%; color: white; padding: 20px; text-align: justify; font-size: 1em; min-height: 350px;}
+   .cols{
+       flex-wrap: wrap;
+   }
+   .col_1{
+       width: 40%;
+   }
+    }
+@media only screen and (min-width:768px){
+.menu a{
+    padding: 3px; font-size: 10px;
+}
+.Div_2{width:150%;padding: 5px;}
+.Div_2 li{ padding: 8%;font-size: 1em; text-align: left;}
+.cols{
+    flex-wrap: wrap;
+}
+.col_1{
+    width: 40%;
+}
+}
+@media only screen and (min-width:1024px){
+.menu a{ padding: 10px;}
+}
+
+
+    
