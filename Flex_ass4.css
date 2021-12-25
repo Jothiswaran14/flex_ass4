@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #008cff;
+    padding: 10px; 
+    justify-content: space-around;
+}
+header div{
+    display: flex;
+}
+.mail{
+    color: white;
+    align-items: center;
+    font-weight: bold;
+}
+.image1 img{
+    margin: 5px;
+}
+.section_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    background-color: #008cff;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center; 
+}
+.burger_icon {
+    width: 40px;
+    display: none;
+}
+.menu a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0;
+}
+.menu a:hover{
+    color: #008cff;
+    background-color: ghostwhite;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.iframe{
+    border: solid white;
+    text-align: center;
+    background-color: #dae2e1;
+}
+.section_2{
+    display: flex;
+    justify-content: center
+}
+.image_1{
+    width: 22%;
+}
+.image_1 .image_2{
+    width: 100%;
+    height: 200px;
+}
+.para1{
+    padding: 5px;
+    text-align: justify;
+}
+.section_3{
+    width: 100%;
+    text-align: center;
+}
+.flex_box{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.image_1 a img {
+    width: 100%;
+    height: 250px;
+    margin: 5px;
+}
+a{ text-decoration: none;}
+.para2{text-align: center;}
+.Div_1{display: flex;}
+.Div_2{background-color: whitesmoke; width:80%;padding: 10px;}
+.Div_2 li{ display: flex; padding: 2%;font-size: 1em;}
+.Div_2 li:hover{ background-color: #008cff; color: ghostwhite;}
+.Div_3{background: url(https://theapopkavoice.com/uploads/original/20210708-140232-ice-cubes2.jpg) 100%; min-height: 350px;}
+.Div_3 div{background-color: rgba(73, 71, 75, 0.479); width: 60%; color: white; padding: 20px; text-align: justify; font-size: 1.2em; min-height: 350px;}
+.fixed{ background:url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4FRz0?ver=e0d0&q=90&m=2&h=768&w=1024&b=%23FFFFFFFF&aim=true')
+    no-repeat fixed center/cover; min-height: 200px; color: white;flex-wrap: wrap;}
+.fixed .Div_4{ text-align: center; padding: 20px 0 30px 0; font-weight: bolder; font-size: 2em;  background-color:#008cffa4; min-height: 200px;}
+.fixed .button{ padding: 15px; color: #008cff; font-weight: bold; font-size: 0.5em; margin-right: 50px;}
+.cols {display: flex; background-color: gainsboro; justify-content: center;}
+.col_1 {width: 22%; background-color: rgb(182, 172, 182); padding: 20px; text-align: justify;margin: 10px; flex-flow: column wrap;} 
+.col_1:hover {background-color: white; color:#008cff;}
+.col_1 h3:hover{color:#008cff;;}
